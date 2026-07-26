@@ -283,3 +283,34 @@ color:white;
 cursor:pointer;
 
 }
+.petal{
+
+position:fixed;
+
+top:-30px;
+
+color:#ead4d4;
+
+pointer-events:none;
+
+z-index:999;
+
+animation:fall linear forwards;
+
+}
+
+@keyframes fall{
+
+0%{
+
+transform:translateY(-30px) rotate(0deg);
+
+}
+
+100%{
+
+transform:translateY(110vh) rotate(360deg);
+
+}
+
+}
